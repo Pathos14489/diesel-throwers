@@ -8,26 +8,24 @@ define e = Character("Eileen")
 
 # The game starts here.
 
+image start_sun = Image("start_sun.png")
+define scoots = Character("Scootaloo")
+image scoots chill = Image("scoots_smile.png")
+
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    scene start_sun
 
-    scene bg room
+    "You wake up as the sun's first light hits you through the open window."
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    "A cursory glance at your clock does both the job of reminding you you have school, and that it's in an hour."
 
-    show eileen happy
+    "I sigh, popping my neck and sitting up in bed. I glance over at the clock at try to levitate it with my magic."
 
-    # These display lines of dialogue.
+    "You twirl it in midair a little, nearly dropping it but keeping it aloft, albeit wobbly."
 
-    e "You've created a new Ren'Py game."
+    show scoots chill
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
+    scoots "Wow. You've gotten better."
 
     return
