@@ -9,10 +9,18 @@ define e = Character("Eileen")
 # The game starts here.
 
 image start_sun = Image("start_sun.png")
+image start_sun_2 = Image("start_sun_2.png")
+
 define scoots = Character("Scootaloo")
 image scoots chill = Image("scoots_smile.png")
-define echo = Character("Echo")
 image scoots grin = Image("scoots_grin.png")
+
+define echo = Character("Echo")
+
+define wh = Character("Warm Heart")
+image wh smile = Image("warmheart_smile.png")
+image wh chill = Image("warmheart_skeptical.png")
+image wh curious = Image("warmheart_curious.png")
 
 label start:
 
@@ -25,6 +33,8 @@ label start:
     "I sigh, popping my neck and sitting up in bed. I glance over at the clock at try to levitate it with my magic."
 
     "You twirl it in midair a little, nearly dropping it but keeping it aloft, albeit wobbly."
+
+    scene start_sun_2
 
     show scoots chill
 
@@ -59,5 +69,17 @@ label start:
     scoots "Unicorns, too."
 
     "She walks out."
+
+    hide scoots grin
+
+    echo "If you beat me up it'd be murder. I might, might have a chance with a newborn foal! Murder, I said!"
+
+    show wh curious
+
+    wh "Murder, you say?"
+
+    "She gives you a curious look."
+
+    echo "Murder I said. I said murder."
 
     return
