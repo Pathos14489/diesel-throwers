@@ -28,7 +28,7 @@ label start:
 
     scene start_sun_2
 
-    show scoots chill
+    show scoots chill at right
 
     scoots "Wow. You've gotten better."
 
@@ -66,7 +66,7 @@ label start:
 
     echo "If you beat me up it'd be murder. I might, might have a chance with a newborn foal! Murder, I said!"
 
-    show wh curious
+    show wh curious at right
 
     wh "Murder, you say?"
 
