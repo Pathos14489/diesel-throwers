@@ -40,7 +40,7 @@ label start:
 
     show scoots grin
 
-    "My room partner, an orange pegasus with purpley hair - you think you remember her name, Scootaloo? - smiles back with a tired grin."
+    "My room partner, an orange pegasus with purpley hair - I think I remember her name, Scootaloo? - smiles back with a tired grin."
 
     scoots "That's good. If anypony tries to beat you up, at least you won't die in the first round."
 
