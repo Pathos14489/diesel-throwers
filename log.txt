@@ -1,0 +1,149 @@
+Mon Jan 22 20:37:42 2018
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3135
+ 
+
+Bootstrap to the start of init.init took 0.06s
+Early init took 0.01s
+Loader init took 0.07s
+Loading error handling took 0.03s
+Loading script took 0.69s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.09s
+Loading analysis data took 0.00s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.01s
+DPI scale factor: 1.000000
+Creating interface object took 0.03s
+Cleaning stores took 0.00s
+Init translation took 0.01s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.12s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.01s
+Couldn't import sw renderer:
+Traceback (most recent call last):
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1887, in make_draw
+    draw_objects[name] = draw_class(*args)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\swdraw.py", line 680, in __init__
+    self.reset()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\swdraw.py", line 706, in reset
+    renpy.display.interface.post_init()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1791, in post_init
+    self.set_icon()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1822, in set_icon
+    renpy.loader.load(icon),
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'gui/window_icon.png'.
+Unknown renderer: sw
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 198, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 848, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\python.py", line 1804, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00gltest.rpy", line 445, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 363, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 388, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 2588, in interact
+    self.start()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1760, in start
+    self.set_mode()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1990, in set_mode
+    if draw.set_mode(virtual_size, physical_size, fullscreen):
+  File "gldraw.pyx", line 201, in renpy.gl.gldraw.GLDraw.set_mode
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1791, in post_init
+    self.set_icon()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1822, in set_icon
+    renpy.loader.load(icon),
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'gui/window_icon.png'.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 198, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 445, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 363, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 388, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+IOError: Couldn't find file 'gui/window_icon.png'.
+
+Full traceback:
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\bootstrap.py", line 306, in bootstrap
+    renpy.main.main()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\main.py", line 520, in main
+    run(restart)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\main.py", line 149, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\execution.py", line 835, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 198, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 848, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\python.py", line 1804, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00gltest.rpy", line 445, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 363, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 388, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 2588, in interact
+    self.start()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1760, in start
+    self.set_mode()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1990, in set_mode
+    if draw.set_mode(virtual_size, physical_size, fullscreen):
+  File "gldraw.pyx", line 201, in renpy.gl.gldraw.GLDraw.set_mode
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1791, in post_init
+    self.set_icon()
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\display\core.py", line 1822, in set_icon
+    renpy.loader.load(icon),
+  File "C:\Users\pathos\Downloads\renpy-6.99.14-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'gui/window_icon.png'.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 198, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 445, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 363, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 388, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+IOError: Couldn't find file 'gui/window_icon.png'.

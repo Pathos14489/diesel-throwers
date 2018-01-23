@@ -1,27 +1,18 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
-
-image start_sun = Image("start_sun.png")
-image start_sun_2 = Image("start_sun_2.png")
-
+﻿# The game starts here.
 define scoots = Character("Scootaloo")
-image scoots chill = Image("scoots_smile.png")
-image scoots grin = Image("scoots_grin.png")
-
 define echo = Character("Echo")
-
 define wh = Character("Warm Heart")
-image wh smile = Image("warmheart_smile.png")
-image wh chill = Image("warmheart_skeptical.png")
-image wh curious = Image("warmheart_curious.png")
-image wh skeptical = Image("warmheart_skeptical.png")
+
+image start_sun = Image("bg/start_sun.png")
+image start_sun_2 = Image("bg/start_sun_2.png")
+
+image scoots chill = Image("scootaloo/scoots_smile.png")
+image scoots grin = Image("scootaloo/scoots_grin.png")
+
+image wh smile = Image("warmheart/warmheart_smile.png")
+image wh chill = Image("warmheart/warmheart_skeptical.png")
+image wh curious = Image("warmheart/warmheart_curious.png")
+image wh skeptical = Image("warmheart/warmheart_skeptical.png")
 
 label start:
 
