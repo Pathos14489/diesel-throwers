@@ -2,6 +2,8 @@
 define scoots = Character("Scootaloo")
 define echo = Character("Echo")
 define wh = Character("Warm Heart")
+define chops = Character("Chops")
+define rosepop = Character("Rosepop")
 
 image start_sun = Image("bgs/start_sun.png")
 image start_sun_2 = Image("bgs/start_sun_2.png")
@@ -18,9 +20,9 @@ label start:
 
     scene start_sun
 
-    "You wake up as the sun's first light hits you through the open window."
+    "I wake up as the sun's first light hits me through the open window."
 
-    "A cursory glance at your clock does both the job of reminding you you have school, and that it's in an hour."
+    "A cursory glance at my clock does both the job of reminding me I have school, and that it's in an hour."
 
     "I sigh, popping my neck and sitting up in bed. I glance over at the clock at try to levitate it with my magic."
 
@@ -30,7 +32,7 @@ label start:
 
     show scoots chill at right
 
-    scoots "Wow. You've gotten better."
+    "Filly" "Wow. You've gotten better."
 
     "I grin, happy with the results while glancing over to the voice."
 
@@ -38,7 +40,7 @@ label start:
 
     show scoots grin
 
-    "Your room partner, an orange pegasus with purpley hair - you think you remember her name, Scootaloo? - smiles back with a tired grin."
+    "My room partner, an orange pegasus with purpley hair - you think you remember her name, Scootaloo? - smiles back with a tired grin."
 
     scoots "That's good. If anypony tries to beat you up, at least you won't die in the first round."
 
@@ -56,7 +58,7 @@ label start:
 
     scoots "You know, there's a reason Ms. Heart was okay with you being in a filly's room. I've beat up more colts than anypony here."
 
-    "She begins to walk out the door, but pauses."
+    "She starts to walk out the door, but pauses."
     
     scoots "Unicorns, too."
 
@@ -64,7 +66,7 @@ label start:
 
     hide scoots grin
 
-    echo "If you beat me up it'd be murder. I might, might have a chance with a newborn foal! Murder, I said!"
+    echo "If you beat me up it'd be murder! I might, might have a chance with a newborn foal! But you?! Murder, I said!"
 
     show wh curious at right
 
@@ -72,7 +74,9 @@ label start:
 
     "She gives you a curious look."
 
-    echo "Murder I said. I said murder."
+    echo "Murder I said.
+
+    echo "I said murder."
 
     wh "I see."
 
@@ -92,7 +96,7 @@ label start:
 
     "I shrug."
 
-    echo "I mean yeah. And she's cool, she only sometimes threatens to strangle me."
+    echo "I mean yeah. And she's cool, she only threatens to strangle me sometimes."
 
     "She nods."
 
@@ -103,5 +107,86 @@ label start:
     "She smirks."
 
     wh "I wouldn't get too friendly, though. She'll castrate you."
+
+    "I blush lightly." 
+    
+    echo "Yeah. Probably. Absolutely."
+
+    "She nods, then walks out." 
+    
+    wh "I'd hurry downstairs if you want breakfast,"
+    
+    hide wh
+
+    wh "Chops just woke up!"
+
+    "I nod slowly."
+    
+    echo "...Chops. The uh... Yeah I know... him."
+
+    show wh skeptical
+
+    "She comes back, a bemused expression on her face."
+    
+    wh "It's your second day, I don't think you've met her quite yet."
+
+    "I scratch my head."
+    
+    echo "Right. Wanna introduce me?"
+
+    wh "You'll find out in a way you won't like if you don't hurry downstairs." 
+    
+    hide wh
+
+    "She continues on down the hall, knocking on doors and calling for others to wake up."
+
+    echo "Okkie dokie."
+    
+    "I glance around, it's a pretty okay room. Blue walls, with a light-blue ceiling. I find that there are several folded paper cranes hanging from the ceiling. Across the room, on Scootaloo's side, there are posters of a mare with a rainbow-colored mane, dashing through the sky. I think I see a small something with a similar rainbow pattern peeking from the edge of her tangled sheets, but I'm not sure."
+
+    "I give it a curious glance before shrugging. Then a thought hit me."
+
+    echo "...Scootaloo has clothes? Isn't that a kink thing for rich ponies??"
+
+    "Do I dare to see what the rainbow object is?"
+    "Add a choice here later"
+
+    "I glance back at it, sweating slightly and eyeing the door. Before bolting out of the room before curiousity came and bit me in the ass. Or worse, Scootaloo came and kicked me in the ass."
+
+    "I'm on the balcony, overlooking a busy living room. Several ponies are down there, munching on something or another as they pack up for school."
+
+    "I glance around, hurrying downstairs."
+
+    "I see to my right a kitchen, the busiest center. On my left is the living room, and in front of me is the door. Ponies leave every now and then as they finish getting ready, it seems I can just go whenever I'M ready."
+
+    "I search around for Ms. Heart, she's nowhere to be seen."
+
+    "Somepony" "Uh-oh! Chops is coming, everypony get food, fast!"
+
+    "I glance around, confused as fuck and having no idea where this mythical \"food\" these ponies talked of might be. My search takes me to the kitchen and I find a table that showed to have once been full of fresh foods and veggies, but I'm left with the choice between oranges and grapes for fruit, and celery for a veggie. There's bread somewhere, a half loaf."
+
+    "I find an opening in the crowd, letting I pass to get to the table quickly and I grab as many oranges as I can carry. Being one orange."
+
+    "You find yourself being softly nudged. A little rose-colored filly with a darker red mane timidly noses a paper bag to you."
+
+    "Rose-colored Filly" "Here's a bag..."
+
+    "She whispers, hiding herself behind her long mane."
+
+    echo "Thanks."
+
+    "I smile. I say after dropping the orange in the bag and taking it. I add another orange to it. She smiles a little, then vanishes with a pop. I stare at where she was with an incredibly wide and awkward smile. My eye twitchs as I glance at the bag in my mouth, then back to where she was. I inch backwards a step."
+
+    echo "...Ehhh... ghoost... pony... little... filly..."
+
+    "I mumble, inching back, and then inching back again."
+
+    "Somepony behind you chuckles."
+
+    "Griffin" "That's Rosepop. At least, that's what everypony calls her. She's a unicorn, and she's an expert at teleportation even though she's really young." 
+    
+    "A beaked face walks into your range of sight, up to the table."
+   
+    chops "Hi! I'm Chops."
 
     return
