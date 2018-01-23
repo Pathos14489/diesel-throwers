@@ -3,8 +3,8 @@ define scoots = Character("Scootaloo")
 define echo = Character("Echo")
 define wh = Character("Warm Heart")
 
-image start_sun = Image("bg/start_sun.png")
-image start_sun_2 = Image("bg/start_sun_2.png")
+image start_sun = Image("bgs/start_sun.png")
+image start_sun_2 = Image("bgs/start_sun_2.png")
 
 image scoots chill = Image("scootaloo/scoots_smile.png")
 image scoots grin = Image("scootaloo/scoots_grin.png")
