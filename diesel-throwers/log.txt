@@ -1,4 +1,4 @@
-Mon Jan 22 14:51:24 2018
+Mon Jan 22 17:37:17 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
  
@@ -432,14 +432,14 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 0.789000034332s
+Total time until interface ready: 1.17900013924s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.017667 seconds.
-- Frame drawn at 0.017667 seconds.
 - Frame drawn at 0.018667 seconds.
 - Frame drawn at 0.035667 seconds.
-- 0.035667 seconds to render 5 frames.
+- Frame drawn at 0.079667 seconds.
+- 0.079667 seconds to render 5 frames.
 Cleaning stores took 0.00s
 Init translation took 0.10s
 Build styles took 0.01s

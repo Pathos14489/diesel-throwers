@@ -21,6 +21,7 @@ define wh = Character("Warm Heart")
 image wh smile = Image("warmheart_smile.png")
 image wh chill = Image("warmheart_skeptical.png")
 image wh curious = Image("warmheart_curious.png")
+image wh skeptical = Image("warmheart_skeptical.png")
 
 label start:
 
@@ -81,5 +82,35 @@ label start:
     "She gives you a curious look."
 
     echo "Murder I said. I said murder."
+
+    wh "I see."
+
+    show wh skeptical
+
+    "She smiles bemusedly."
+
+    wh "If you're talking about that breath of yours, I certainly agree. Make sure to brush up a little extra after breakfast, 'kay?"
+
+    echo "Okay."
+
+    "I shrug, yawning and hopping out of bed."
+
+    show wh curious
+
+    wh "How are you liking it here, by the way? Scootaloo hasn't been too hard on you, has she?"
+
+    "I shrug."
+
+    echo "I mean yeah. And she's cool, she only sometimes threatens to strangle me."
+
+    "She nods."
+
+    wh "Good. I'm glad you're getting along."
+
+    show wh skeptical
+
+    "She smirks."
+
+    wh "I wouldn't get too friendly, though. She'll castrate you."
 
     return
